@@ -6,11 +6,11 @@ body {
 h1 {
   font-size: 50px;
 }
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
-p{
-    color: dimgray;
+p {
+  color: dimgray;
 }
 .orange-highlight {
   color: orange;
@@ -40,8 +40,33 @@ section {
   color: white;
   font-weight: bold;
 }
-.dream-area{
-    background-image: url("images/dream-bg.png");
+.dream-area {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left; /* image ta left and center a chole ashbe*/
+}
+.single-experience {
+  box-shadow: 10px 10px 40px gray;  /* Aikhane serial wise 3 number j pixel value ta dewa hoise oita shadow choranor area define kore */
+  border-radius: 5px;
+  height: 60%; /* Shob gula experience card ar height same hobe akhn*/
+  background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#beginner-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
