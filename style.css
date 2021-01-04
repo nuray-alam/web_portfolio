@@ -6,14 +6,20 @@ body {
 h1 {
   font-size: 50px;
 }
-.name-highlight {
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight {
   color: orange;
 }
 .half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
-  padding-left: 5%;
+  padding-left: 2%;
 }
 .half-width img {
   width: 100%;
@@ -24,6 +30,7 @@ h1 {
 }
 section {
   height: 500px;
+  padding-bottom: 50px;
 }
 .link-button {
   text-decoration: none;
@@ -32,4 +39,9 @@ section {
   border-radius: 5px;
   color: white;
   font-weight: bold;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
